@@ -4,17 +4,22 @@ public class KalkulasiPerhitungan {
         switch(operator){
             case '+':
             r = number[0] + number[1];
+            System.out.print("Hasil: "+r);
             break;
             case '/':
             r = number[0] / number[1];
+            System.out.print("Hasil: "+r);
             break;
             case '*':
             r = number[0] * number[1];
+            System.out.print("Hasil: "+r);
             break;
             case '-':
             r = number[0] - number[1];
+            System.out.print("Hasil: "+r);
             break;
+            default:
+            System.out.print("Operator Undefined!");
         }
-        System.out.print(r);
     }
 }
