@@ -1,7 +1,14 @@
 requirement for calculator
-- user bisa melakukan penjumlahan
-- user bisa melakukan perkalian
-- user bisa melakukan pembagian
-- user bisa melakukan pengurangan
-- user hanya bisa memasukan 2 lawan angka untuk dikalkulasikan
-- use hanya bisa memasukan 1 jenis operator
+- formula untuk penambahan
+- formula untuk pengurangan
+- formula untuk pembagian
+- formula untuk perkalian
+- user bisa melakukan kalkulasi angka lebih dari dua angka
+
+method
+- menggunakan mesin abstrak
+- operasi dilakukan ketika operasi matematika dan angka sudah ditetapkan ex:( '+''number')	
+
+constraint
+- tidak perlu memperdulikan urutan operator matematika
+- input dibatasi dengan string kosong
