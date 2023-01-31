@@ -16,6 +16,7 @@ public class App {
         //prInteger
         KalkulasiPerhitungan.defOP(pack, x);;
     }
+// pack the num
     public static void packNUM(Integer[] packs,Integer a, Integer b){
       packs[0] = a;
       packs[1] = b;
