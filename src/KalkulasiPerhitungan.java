@@ -19,7 +19,7 @@ public class KalkulasiPerhitungan {
             System.out.print("Hasil: "+r);
             break;
             default:
-            System.out.print("Operator Undefined!");
+            System.out.print("Operator Undefined!!");
         }
     }
 }
